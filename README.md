@@ -18,5 +18,10 @@ to no more than 2000 vertices.  After that, they should be checked
 against data already in OSM to resolve any conflicts (for example,
 part of Colville National Forest is already in OSM).
 
+For example, the administrative boundary for Bois National Forest was
+converted with:
+    $ ogr2ogr -fid 38 -f "ESRI Shapefile" -t_srs EPSG:4326 Boise.shp S_USA.AdministrativeForest.shp
+and exported to OSM with the JOSM editor.
+
 GeoJSON files are provided for convenience, they should be equivalent
 to the `.osm` files but can be rendered directly on GitHub.
