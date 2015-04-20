@@ -17,3 +17,6 @@ needs to be done. For example, polygons should be validated and split
 to no more than 2000 vertices.  After that, they should be checked
 against data already in OSM to resolve any conflicts (for example,
 part of Colville National Forest is already in OSM).
+
+GeoJSON files are provided for convenience, they should be equivalent
+to the `.osm` files but can be rendered directly on GitHub.
