@@ -1,6 +1,6 @@
 This repository is a staging area for National Forest Service data to
 be uploaded into OpenStreetmaps. National data available from
-[http://data.fs.usda.gov/geodata/edw/datasets.php] include:
+http://data.fs.usda.gov/geodata/edw/datasets.php include:
 
 - Administrative Forest Boundaries (`S_USA.AdministrativeForest.shp`)
 - Wilderness Areas (`S_USA.Wilderness.shp`)
@@ -20,6 +20,7 @@ part of Colville National Forest is already in OSM).
 
 For example, the administrative boundary for Bois National Forest was
 converted with:
+
     $ ogr2ogr -fid 38 -f "ESRI Shapefile" -t_srs EPSG:4326 Boise.shp S_USA.AdministrativeForest.shp
 and exported to OSM with the JOSM editor.
 
