@@ -24,5 +24,7 @@ converted with:
     $ ogr2ogr -fid 38 -f "ESRI Shapefile" -t_srs EPSG:4326 Boise.shp S_USA.AdministrativeForest.shp
 and exported to OSM with the JOSM editor.
 
-GeoJSON files are provided for convenience, they should be equivalent
-to the `.osm` files but can be rendered directly on GitHub.
+GeoJSON files are provided for convenience, they are simplified
+versions of the geometries in the `.osm` files but can be rendered
+directly on GitHub.  The resolution of the GeoJSON files should be
+very good, but they are not identical to the originals.
