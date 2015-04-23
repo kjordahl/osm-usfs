@@ -58807,6 +58807,7 @@
     <tag k='boundary:type' v='protected_area' />
     <tag k='name' v='Idaho Panhandle National Forests' />
     <tag k='ownership' v='national' />
+    <tag k='landuse' v='forest' />
     <tag k='park:type' v='national_forest' />
     <tag k='source' v='http://data.fs.usda.gov/geodata/edw/datasets.php' />
     <tag k='type' v='multipolygon' />
